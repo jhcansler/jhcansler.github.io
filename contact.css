@@ -1,0 +1,140 @@
+html {background-color: black; box-sizing: border-box;}
+
+body {opacity: 0;}
+
+.header {
+    background: black;
+    box-shadow: 0px 0px 20px black;
+    margin: -1.1% -0.5% 0% -1%;
+    text-align: center;
+    padding: 0.8%;
+    border-bottom: white solid 1px;
+}
+
+.header li {
+    color: white;
+    display: inline;
+    padding: 0% 3%;
+    font-size: 155%;
+    opacity: 0.5;
+    font-family: 'Pragati Narrow', sans-serif;
+    transition-property: color, opacity;
+    transition-duration: 0.5s;
+}
+
+.header li:hover {
+    color: silver;
+    opacity: 1;
+}
+
+.header li:active {
+    color: white;
+    opacity: 1;
+}
+
+.active li {
+    color: white;
+    opacity: 1;    
+}
+
+.active li:hover {
+    color: white;
+    opacity: 1;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.name {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 440%;
+    margin-top: 10vmax;
+    margin-bottom: 0%;
+    text-shadow: 0px 0px 100px black;
+    font-family: 'Abel', sans-serif;
+    opacity: 0;
+}
+
+.contacts {
+    padding: 1% 2%;
+    margin: 20%;
+    margin-top: 2%;
+    border: 1px solid white;
+    background-color: black;
+}
+
+.contacts p {
+    color: white;
+    font-size: 2.5vmax;
+    text-shadow: 0px 0px 40px black;
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+    transition-property: text-decoration;
+    transition-duration: 0.5s;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        margin: 0 3%;
+        padding: 0%;
+        border-bottom: 1px solid white;
+    }
+    .header ul {
+        margin-left: 0;
+        padding-left: 0%;
+    }
+    .header li {
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding: 0%;
+        margin-left: 0;
+        font-size: 3vmax;
+    }
+    .contacts {
+        margin: 3%;
+    }
+    .contacts p {
+        font-size: 5vmin;
+        text-align: left;
+    }
+    .name h1 {
+        font-size: 10vmax;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

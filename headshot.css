@@ -1,0 +1,187 @@
+html {background-color: black; box-sizing: border-box;}
+
+body {opacity: 0;}
+
+.header {
+    background: black;
+    box-shadow: 0px 0px 20px black;
+    margin: -1.1% -0.5% 0% -1%;
+    text-align: center;
+    padding: 0.8%;
+    border-bottom: white solid 1px;
+}
+
+.header li {
+    color: white;
+    display: inline;
+    padding: 0% 3%;
+    font-size: 155%;
+    opacity: 0.5;
+    font-family: 'Pragati Narrow', sans-serif;
+    transition-property: color, opacity;
+    transition-duration: 0.5s;
+}
+
+.header li:hover {
+    color: silver;
+    opacity: 1;
+}
+
+.header li:active {
+    color: white;
+    opacity: 1;
+}
+
+.active li {
+    color: white;
+    opacity: 1;    
+}
+
+.active li:hover {
+    color: white;
+    opacity: 1;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.name {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 200%;
+    text-shadow: 0px 0px 100px black;
+    font-family: 'Abel', sans-serif;
+    opacity: 0;
+}
+
+.resume {
+    float: left;
+    clear: right;
+    max-height: 70%;
+    width: 42%;
+    overflow-y: scroll;
+    margin: 0% 2% 0% 5%;
+}
+
+.resume img {
+    width: 98%;
+}
+
+.resume::-webkit-scrollbar-track {
+	background-color: #454545;
+	border-radius: 5px;
+}
+
+.resume::-webkit-scrollbar {
+	width: 10px;
+	background-color: black;
+}
+
+.resume::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: #e6e6e6;
+}
+
+.buttons {
+    width: 97.8%;
+    margin: 5px -2px 10px 0px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 4% 0%;
+    font-family: 'EB Garamond', serif;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+}
+
+.resume a {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: 'EB Garamond', serif;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons:active {
+    border: 1px solid black;
+}
+
+.headshot {
+    border: 1px solid white;
+    color: white;
+    float: right;
+    width: 42%;
+    margin: 0% 5% 0% 2%;
+    height: 70%;
+    text-align: center;
+    font-size: 240%;
+}
+
+.headshot p {
+    margin: 10vmax 10vmax;
+    font-family: 'Cutive Mono', monospace;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        margin: 0 3%;
+        padding: 0%;
+        border-bottom: 1px solid white;
+    }
+    .header ul {
+        margin-left: 0;
+        padding-left: 0%;
+    }
+    .header li {
+        text-align: left;
+        display: block;
+        width: 100%;
+        padding: 0%;
+        margin-left: 0;
+        font-size: 3vmax;
+    }
+    .resume {
+        float: left;
+        clear: none;
+        max-height: none;
+        width: 95%;
+        overflow-y: auto;
+        margin: 1% 3% 5% 3%;
+    }
+    .resume a {
+        font-size: 3vmax;
+    }
+    .headshot {
+        display: none;
+    }
+    span {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

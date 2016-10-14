@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='contact.css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("body").animate({opacity: "1"}, 300);
+                $(".name h1").animate({opacity: '1'}, 800);
+                $(".name p").animate({opacity: '0.9'}, 1000);
+                $("#notactive li").click(function(){
+                   $("body").animate({opacity: "0"}, 300);
+                });
+            });
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Abel|Cutive+Mono|Pragati+Narrow" rel="stylesheet">
+        <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/theatre_masks.png"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jakob Cansler - Contact</title>
+    </head>
+    <body>
+        <div class="header">
+            <ul>
+                <a id="notactive" href="index.html">
+                    <li>Home</li>
+                </a>
+                <a id="notactive" href="bio.html">
+                    <li>Bio + Media</li>
+                </a>
+                <a id="notactive" href="headshot.html">
+                    <li>Resume + Headshot</li>
+                </a>
+                <a class="active" href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="name">
+            <h1>Jakob Cansler</h1>
+        </div>
+        <div class="contacts">
+            <p>Email: <a href="mailto:acting@jakobcansler.com">acting@jakobcansler.com</a></p>
+        </div>
+    </body>
+</html>
