@@ -231,7 +231,9 @@ span {
         margin-left: 0;
         font-size: 3vmax;
     }
-
+	.shothead {
+		display: none;
+	}
 }
 
 
